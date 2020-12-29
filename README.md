@@ -4,7 +4,7 @@ Click a button, post to URL
 
 ## Firefox Addon
 
-This was _just_ submitted to the Firefox Addon Site and pening review should be available shortly.
+This was _just_ submitted to the Firefox Addon Site and pending review should be available shortly.
 Here is the link that will go live once it gets approved: https://addons.mozilla.org/en-US/firefox/addon/whack-a-post/
 
 ### Install Manually (Unsigned)
