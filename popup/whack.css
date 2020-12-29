@@ -1,7 +1,9 @@
-html, body {
-  /* width: 100px; */
-}
-
 .hidden {
   display: none;
+}
+
+
+#credits {
+  margin-top: 1rem;
+  font-size: 75%;
 }

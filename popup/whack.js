@@ -7,7 +7,7 @@ async function onOpen() {
 
     const settings = await browser.storage.sync.get(["url", "method"]);
 
-    if (settings.url !== "") {
+    if (settings.url && settings.url !== "") {
       const method = settings.method || 'POST';
       fetch(settings.url, { method, body: JSON.stringify({title, url}) });
 
@@ -17,7 +17,7 @@ async function onOpen() {
       document.getElementById("loading").classList.add('hidden');
       const errorDiv = document.getElementById("error")
       errorDiv.classList.remove('hidden');
-      errorDiv.text = 'You need to specify a URL to Whack to in Settings'
+      errorDiv.innerText = 'You need to specify a URL to Whack to in Settings'
     }
   }
 }
